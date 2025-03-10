@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: justify;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body > header{
+    line-height: 5px;
+}
+
+header {
+    background-color: #f9f9f9;
+    color: #6999FA;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #6999FA;
+    padding: 5px ;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #D4D4D4;
+}
+
+
+section {
+    margin-top: 40px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #326EE6;
+}
+section h3 {
+    font-size: 22px;
+}
+
+section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6999FA;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #3236E6;
+}
+
+#receita2{
+    margin-top: 60px;
+}
+
+footer {
+    background-color: #6999FA;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #D4D4D4;
+}
+
+span {
+    font-weight: bold;
+}
